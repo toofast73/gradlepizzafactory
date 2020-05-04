@@ -1,0 +1,21 @@
+group 'ru.live.toofast'
+version '1.0-SNAPSHOT'
+
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+
+    apply plugin: 'java-library'
+    sourceCompatibility = 1.8
+
+}
+
+subprojects {
+    dependencies {
+        constraints {
+            testCompile group: 'junit', name: 'junit', version: '4.12'
+            implementation 'com.google.guava:guava:29.0-jre'
+        }
+    }
+}

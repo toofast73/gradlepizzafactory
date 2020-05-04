@@ -1,0 +1,5 @@
+
+dependencies {
+    implementation project(":ingredients")
+    testCompile group: 'junit', name: 'junit'
+}

@@ -1,0 +1,4 @@
+dependencies {
+    testCompile group: 'junit', name: 'junit'
+    implementation group: 'com.google.guava', name: 'guava'
+}

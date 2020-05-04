@@ -1,0 +1,11 @@
+# Project exclude paths
+/.gradle/
+/build/
+/gradle-pizza-factory-war/build/
+/gradle-pizza-factory-war/build/classes/java/main/
+/ingredients/build/
+/ingredients/build/classes/java/main/
+/ingredients/build/classes/java/test/
+/kitchen/build/
+/restaurant/build/
+/restaurant/build/classes/java/main/

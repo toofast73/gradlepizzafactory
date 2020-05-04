@@ -1,0 +1,6 @@
+rootProject.name = 'gradle-pizza-factory'
+include 'restaurant'
+include 'ingredients'
+include 'kitchen'
+include 'gradle-pizza-factory-war'
+
